@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="shortcut icon" href="./assets/images/coffee_icon-icons.webp" type="image/x-icon">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="contact.css" />
+  </head>
+  <body>
+    <!-- header section -->
+    <header>
+      <nav class="navbar navbar-expand-lg">
+        <div class="container p-1">
+          <a class="navbar-brand text-white fs-2" href="index.html">CYL</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a
+                  class="nav-link text-white-50 fs-4"
+                  aria-current="page"
+                  href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white-50 fs-4" href="about.html"
+                  >About</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white-50 fs-4" href="contact.html"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- form section -->
+    <div class="container bg-light p-5 mt-4">
+      <div class="text-center mt-2">
+        <i class="fa-solid fa-envelope fs-1"></i>
+        <h1 class="mt-3 fw-bold">Get in touch</h1>
+        <p class="text-muted fs-5 fst-italic">We'd love to hear from you.</p>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-xl-6 col-lg-8">
+          <form action="">
+            <div class="form-floating mb-3">
+              <input
+                class="form-control form-control-lg"
+                placeholder="Fullname"
+                type="text"
+                id="fullname"
+                name="name"
+                required
+              />
+              <label for="fullname" class="form-label">Fullname</label>
+            </div>
+            <div>
+            <div class="form-floating mb-3">
+              <input
+                class="form-control form-control-lg "
+                placeholder="E-mail adrress"
+                type="email"
+                id="e-mail"
+                name="mail"
+                required
+              />
+              <label for="e-mail" class="form-label"> E-mail</label>
+            </div>
+            
+        </div>
+            <div class="form-floating mb-3">
+              <input
+                class="form-control form-control-lg"
+                placeholder="Phone number"
+                type="phone number"
+                id="number"
+                name="phone-number"
+                required
+              />
+              <label for="number" class="form-label">Phone Number</label>
+            </div>
+            
+            
+
+            <div class="form-floating">
+                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 180px"></textarea>
+                <label for="floatingTextarea2">Message</label>
+              </div>
+            <div class="col-auto mt-4">
+              <button
+                type="submit"
+                class="btn btn-warning mb-3 fw-medium fs-5 form-control form-control-lg"
+              >
+                Submit
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- other section -->
+     <section class="py-5">
+    <div class="container p-5 mt-2">
+      <div class="row d-flex row-cols-2 row-cols-lg-4 justify-content-center">
+        <div class="icons">
+          <div class="col">
+            <i class="fa-solid fa-comments fs-2"></i>
+            <h4 class="mt-3">Chat with us</h4>
+            <p class="text-muted">
+              Chat live with one of our support specialists.
+            </p>
+          </div>
+        </div>
+        <div class="icons">
+          <div class="col">
+            <i class="fa-solid fa-user fs-2"></i>
+            <h4 class="mt-3">Ask the community</h4>
+            <p class="text-muted">
+              Explore our community forums and communicate.
+            </p>
+          </div>
+        </div>
+        <div class="icons">
+          <div class="col">
+            <i class="fa-solid fa-question fs-2"></i>
+            <h4 class="mt-3">Support Center</h4>
+            <p class="text-muted">
+              Browse FAQ's and support articles to find solutions.
+            </p>
+          </div>
+        </div>
+        <div class="icons">
+          <div class="col">
+            <i class="fa-solid fa-phone fs-2"></i>
+            <h4 class="mt-3">Call us</h4>
+            <p class="text-muted">
+              Call us during normal business hours at (555) 892-9403.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+</section>
+    <!-- footer section -->
+    <footer class="bg-dark py-4 mt-auto mt-5">
+        <div class="container">
+            <div class="row d-flex align-items-center justify-content-between flex-md-row flex-column">
+                <div class="col-auto">
+                    <div class="text-white">Copyright © CAYLI,Sude</div>
+                </div>
+                <div class="col-auto">
+                    <a href="#" class="text-white">Privacy</a>
+                    <span class="text-white mx-1">·</span>
+                    <a href="#" class="text-white">Terms</a>
+                    <span class="text-white mx-1">·</span>
+                    <a href="#" class="text-white">Contact</a>
+                </div>
+            </div>
+        </div>
+    
+    </footer>
+    
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

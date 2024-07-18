@@ -1,0 +1,26 @@
+.navbar{
+    background-color: rgb(42, 29, 12) !important;
+}
+
+h1{
+    color: rgb(42, 29, 12) !important;
+}
+.col-lg-6 img{
+    width: 500px !important;
+    height: 300px !important;
+
+}
+
+h2{
+    color: rgb(42, 26, 10) !important;
+}
+
+#secondcontainer{
+    background-color: rgba(243, 236, 226, 0.592) !important;
+}
+.team img{
+    width: 150px !important;
+    height: 150px !important;
+}
+
+

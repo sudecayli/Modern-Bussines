@@ -1,0 +1,8 @@
+.navbar{
+    background-color: rgb(42, 29, 12) !important;
+}
+.icons{
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
